@@ -3818,7 +3818,7 @@ st.markdown(
 
     .brand-topbar {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-bottom: 22px;
         gap: 18px;
@@ -3827,19 +3827,21 @@ st.markdown(
     .brand-logos {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 12px;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .philips-logo {
         background: #ffffff;
         color: var(--philips-blue);
         border: 2px solid var(--philips-blue);
-        border-radius: 4px;
-        padding: 8px 15px;
+        border-radius: 999px;
+        padding: 9px 16px;
         font-weight: 800;
-        font-size: 22px;
-        letter-spacing: 1.5px;
+        font-size: 18px;
+        letter-spacing: 2px;
         line-height: 1;
         box-shadow: 0 8px 20px rgba(0, 59, 121, 0.10);
     }
@@ -3867,7 +3869,7 @@ st.markdown(
         background: #ffffff;
         color: var(--fumagalli-green);
         border: 2px solid var(--fumagalli-green);
-        border-radius: 4px;
+        border-radius: 999px;
         padding: 9px 15px;
         font-weight: 800;
         font-size: 18px;
@@ -3880,7 +3882,7 @@ st.markdown(
         background: var(--tecmar-red);
         color: #ffffff;
         border: 1px solid var(--tecmar-red);
-        border-radius: 4px;
+        border-radius: 999px;
         padding: 9px 15px;
         font-weight: 800;
         font-size: 18px;
@@ -3906,7 +3908,7 @@ st.markdown(
         background: var(--olympia-blue);
         color: #ffffff;
         border: 1px solid var(--olympia-blue);
-        border-radius: 4px;
+        border-radius: 999px;
         padding: 9px 15px;
         font-weight: 800;
         font-size: 18px;
@@ -3919,7 +3921,7 @@ st.markdown(
         background: var(--belite-green);
         color: #ffffff;
         border: 1px solid var(--belite-green);
-        border-radius: 4px;
+        border-radius: 999px;
         padding: 9px 15px;
         font-weight: 800;
         font-size: 17px;
@@ -3932,7 +3934,7 @@ st.markdown(
         background: #ffffff;
         color: var(--buckingham-navy);
         border: 2px solid var(--buckingham-navy);
-        border-radius: 4px;
+        border-radius: 999px;
         padding: 9px 15px;
         font-weight: 800;
         font-size: 17px;
@@ -4153,7 +4155,7 @@ st.markdown(
     @media screen and (max-width: 768px) {
         .brand-topbar {
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
             gap: 12px;
         }
 
